@@ -1,0 +1,34 @@
+SimplifIQ AI Software Developer Intern Assessment Reflection
+
+This project was designed as a fully automated AI-powered lead qualification and business audit system.
+
+The goal was to automate the workflow from lead intake to personalized outreach without human intervention.
+
+Key features implemented:
+- Lead intake form using Streamlit
+- Website scraping and company data extraction
+- AI-generated business audit reports using Groq LLM
+- PDF report generation
+- Automated email delivery with report attachment
+
+Architecture Decisions:
+- Streamlit was used for rapid UI development and simplicity.
+- A modular service-based structure was used for maintainability.
+- Groq API was chosen because it provides fast and free LLM access.
+- ReportLab was used for generating professional PDF reports.
+- Resend API was used for email automation.
+
+Challenges Faced:
+- Some websites block scraping requests with 403 errors.
+- Cleaning extracted website text required preprocessing.
+- Free email API limitations required verified recipient testing.
+- Managing API quotas and model compatibility issues.
+
+Future Improvements:
+- Multi-page scraping
+- Competitor analysis
+- Google Sheets logging
+- Google Drive PDF storage
+- Better UI/UX and analytics dashboard
+
+This project demonstrates practical AI workflow automation, modular backend design, and integration of multiple APIs into a real-world business use case.
